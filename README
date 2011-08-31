@@ -1,0 +1,5 @@
+"dot" files, config files, etc.
+
+
+Textmate:
+ln -s /path/to/dotfiles/textmate/* ~/Library/Application\ Support/TextMate/
