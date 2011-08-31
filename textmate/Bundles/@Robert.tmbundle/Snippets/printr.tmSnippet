@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>echo '&lt;a href="txmt://open?url=file://'.__FILE__.'&amp;line='.__LINE__.'"&gt;${1:var}&lt;/a&gt;: &lt;pre&gt;'.print_r(\$${1}, 1)."&lt;/pre&gt;&lt;br/&gt;\n";</string>
+	<key>name</key>
+	<string>printr</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>printr</string>
+	<key>uuid</key>
+	<string>BE7C3C37-31E1-4C2A-9667-0274B6E3A40F</string>
+</dict>
+</plist>

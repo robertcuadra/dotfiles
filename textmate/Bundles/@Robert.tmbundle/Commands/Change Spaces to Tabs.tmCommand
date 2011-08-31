@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+&lt;?php
+$fetch = fread(STDIN, 100);
+if (! strlen($fetch)) {
+	return;
+}
+
+# set this to what you want
+$tablength = 2;
+
+$data = $fetch;
+
+while (strlen($fetch)) {
+	$fetch = fread(STDIN, 1000);
+	$data .= $fetch;
+}
+
+$output = '';
+foreach(explode("\n", $data) as $line) {
+	$len = floor(strspn($line, " ") / $tablength);
+	$output .= str_repeat("\t", $len) . substr($line, $tablength * $len) . "\n";
+}
+echo substr($output, 0, -1);
+?&gt;</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Change Spaces to Tabs</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>A869DA43-7977-4377-942F-9C27A5A19CCD</string>
+</dict>
+</plist>

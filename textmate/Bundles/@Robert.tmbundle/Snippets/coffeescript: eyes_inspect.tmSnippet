@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>eyes.inspect ${1:var}, '${1}'</string>
+	<key>name</key>
+	<string>coffeescript: eyes.inspect</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>tabTrigger</key>
+	<string>eyes</string>
+	<key>uuid</key>
+	<string>6265357E-5D0B-406E-BC30-27087C374945</string>
+</dict>
+</plist>
