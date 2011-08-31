@@ -1,0 +1,12 @@
+[submodule "textmate/Bundles/Jade.tmbundle"]
+	path = textmate/Bundles/Jade.tmbundle
+	url = git://github.com/miksago/jade-tmbundle
+[submodule "textmate/Bundles/JQuery.tmbundle"]
+	path = textmate/Bundles/JQuery.tmbundle
+	url = git://github.com/kswedberg/jquery-tmbundle.git
+[submodule "textmate/Bundles/Markdown.tmbundle"]
+	path = textmate/Bundles/Markdown.tmbundle
+	url = git://github.com/textmate/markdown.tmbundle.git
+[submodule "textmate/Bundles/Lithium.tmbundle"]
+	path = textmate/Bundles/Lithium.tmbundle
+	url = code@dev.lithify.me:lithium_textmate.git
