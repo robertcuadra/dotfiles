@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>echo __FILE__.':'.__LINE__.' - ${1:var}: '.\$${1}."\n";</string>
+	<key>name</key>
+	<string>echovar console</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>echovarc</string>
+	<key>uuid</key>
+	<string>308B0CAE-EBDA-448F-BD21-F27E87379053</string>
+</dict>
+</plist>
